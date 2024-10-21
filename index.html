@@ -1,210 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gigih Haidar - Informatics Student</title>
-    <link rel="stylesheet" href="./Styles/styles.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Gigih Haidar - Informatics Student</title>
+        <link rel="stylesheet" href="./Styles/styles.css"/>
+    </head>
 
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="main-container">
-        <div class="nav">
-          <div class="logo">
-            <a href="/">GH</a>
-          </div>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="main-container">
+                <div class="nav">
+                    <div class="logo">
+                        <a href="/">GH</a>
+                    </div>
 
-          <nav>
-            <ul>
-              <li><a href="#services">#Service</a></li>
-              <li><a href="#portofolio">Portofolio</a></li>
-              <li><a href="#idskills">Skills</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li>
-                <a href="/resume.pdf" target="_blank">
-                  <button class="btn">Resume</button>
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="burger">
-            <div class="line-1"></div>
-            <div class="line-2"></div>
-            <div class="line-3"></div>
-          </div>
-        </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#services">#Service</a>
+                            </li>
+                            <li>
+                                <a href="#portofolio">Portofolio</a>
+                            </li>
+                            <!-- Update this to match the skills section ID -->
+                            <li>
+                                <a href="#skills-education">Skills</a>
+                            </li>
+                            <!-- This link should point to the contact section -->
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="/resume.pdf" target="_blank">
+                                    <button class="btn">Resume</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-        <!-- Hero Section -->
-        <section id="hero">
-          <div class="hero-left">
-            <h3 class="pre-title">My Name Is</h3>
-            <h1 class="hero-name">Haidar <span>Falah</span></h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Delectus in dolore, rem natus hic nesciunt voluptas assumenda
-              nobis doloremque, architecto necessitatibus earum quaerat atque.
-              Et perferendis nesciunt nihil consectetur rem.
-            </p>
-          </div>
-          <div class="hero-right">
-            <img src="./images/Muka.jpg" alt="My Face" />
-          </div>
+                <!-- Hero Section -->
+                <section id="hero">
+                    <div class="hero-left">
+                        <h3 class="pre-title">My Name Is</h3>
+                        <h1 class="hero-name">Haidar
+                            <span>Falah</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus in dolore,
+                            rem natus hic nesciunt voluptas assumenda nobis doloremque, architecto
+                            necessitatibus earum quaerat atque. Et perferendis nesciunt nihil consectetur
+                            rem.
+                        </p>
+                    </div>
+                    <div class="hero-right">
+                        <img src="./images/Muka.jpg" alt="My Face"/>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="service main-container">
+                <h3 class="pre-title">Service</h3>
+                <h1 class="section-title service">Specialized In</h1>
+
+                <div class="grid-3">
+                    <!-- Service 1 -->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewbox="0 0 24 24">
+                                <path
+                                    d="M24 5c-3.923 3.265-5.623 4.716-7.15 4.716-2.44 0-3.681-3.675-4.85-7.716-1.165 4.028-2.41 7.715-4.853 7.715-1.513 0-3.168-1.404-7.147-4.715 3.321 7.018 3 14.292 3 17h18c0-1.718-.478-9.65 3-17zm-16.853 6.715c2.295 0 3.787-1.64 4.853-3.761 1.064 2.122 2.556 3.762 4.85 3.762 1.121 0 2.188-.43 3.126-1.042-.432 1.907-.68 3.72-.82 5.326h-14.322c-.138-1.617-.38-3.423-.808-5.324.927.607 2 1.039 3.121 1.039zm-2.14 8.285c-.003-.593-.016-1.267-.047-2h14.065c-.032.745-.046 1.422-.047 2h-13.971z"/>
+                            </svg>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi odio cum ipsam
+                            accusamus praesentium. Sunt alias ab aliquid obcaecati, natus, voluptatem ea
+                            quod dolores sed voluptatum iste tenetur excepturi!
+                        </p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewbox="0 0 24 24">
+                                <path
+                                    d="M20 16c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm-16 0c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm8-14c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm0-2c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm3.873 15.655l-2.873-2.404v-3.341c-.326.055-.658.09-1 .09s-.674-.035-1-.09v3.341l-2.873 2.404c.484.46.892 1 1.201 1.598l2.672-2.253 2.672 2.253c.309-.598.717-1.137 1.201-1.598z"/>
+                            </svg>
+                        </div>
+                        <h4>Application Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi odio cum ipsam
+                            accusamus praesentium. Sunt alias ab aliquid obcaecati, natus, voluptatem ea
+                            quod dolores sed voluptatum iste tenetur excepturi!
+                        </p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service">
+                        <div class="service-icon">
+                            <svg
+                                width="24"
+                                height="24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill-rule="evenodd"
+                                clip-rule="evenodd">
+                                <path
+                                    d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/>
+                            </svg>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi odio cum ipsam
+                            accusamus praesentium. Sunt alias ab aliquid obcaecati, natus, voluptatem ea
+                            quod dolores sed voluptatum iste tenetur excepturi!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
-      </div>
-    </header>
 
-    <!-- Services Section -->
-    <section id="services">
-      <div class="service main-container">
-        <h3 class="pre-title">Service</h3>
-        <h1 class="section-title service">Specialized In</h1>
+        <!-- Portofolio Section -->
+        <section id="portofolio">
+            <div class="portofilios main-container">
+                <h3 class="pre-title">My Current Works</h3>
+                <h1 class="section-title">Featured Portofolios</h1>
 
-        <div class="grid-3">
-          <!-- Service 1 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M24 5c-3.923 3.265-5.623 4.716-7.15 4.716-2.44 0-3.681-3.675-4.85-7.716-1.165 4.028-2.41 7.715-4.853 7.715-1.513 0-3.168-1.404-7.147-4.715 3.321 7.018 3 14.292 3 17h18c0-1.718-.478-9.65 3-17zm-16.853 6.715c2.295 0 3.787-1.64 4.853-3.761 1.064 2.122 2.556 3.762 4.85 3.762 1.121 0 2.188-.43 3.126-1.042-.432 1.907-.68 3.72-.82 5.326h-14.322c-.138-1.617-.38-3.423-.808-5.324.927.607 2 1.039 3.121 1.039zm-2.14 8.285c-.003-.593-.016-1.267-.047-2h14.065c-.032.745-.046 1.422-.047 2h-13.971z"
-                />
-              </svg>
+                <div class="grid-3">
+                    <div class="portofolio">
+                        <div class="portofolio-cover">
+                            <img src="./images/UI.jpg" alt="Montec Money Tracker"/>
+                        </div>
+                        <div class="portofolio-info">
+                            <div class="portofolio-title">
+                                <h4>UI/UX Montec</h4>
+                                <a href="/" class="portofolio-link">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewbox="0 0 24 24">
+                                        <path
+                                            d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="portofilio-tags">
+                                <div>Figma</div>
+                                <div>Mbuh</div>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam harum quas sequi
+                                sapiente corporis aspernatur, nam laudantium libero quaerat maxime alias et
+                                labore? Iure, dolorum et eveniet eaque consequatur voluptatem?
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h4>UI/UX Design</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi
-              odio cum ipsam accusamus praesentium. Sunt alias ab aliquid
-              obcaecati, natus, voluptatem ea quod dolores sed voluptatum iste
-              tenetur excepturi!
-            </p>
-          </div>
+        </section>
 
-          <!-- Service 2 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M20 16c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm-16 0c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm8-14c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2zm0-2c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm3.873 15.655l-2.873-2.404v-3.341c-.326.055-.658.09-1 .09s-.674-.035-1-.09v3.341l-2.873 2.404c.484.46.892 1 1.201 1.598l2.672-2.253 2.672 2.253c.309-.598.717-1.137 1.201-1.598z"
-                />
-              </svg>
+        <!-- Skills & Education Section -->
+        <section id="skills-education" class="main-container">
+            <h3 class="pre-title">LEARNING PATH</h3>
+            <h1 class="section-title">Skills & Education</h1>
+
+            <div class="skills-education-container">
+                <!-- Left side (Education) -->
+                <div class="education">
+                    <h4>Universitas Diponegoro</h4>
+                    <p>Bachelor's Degree - Informatics</p>
+                    <p>2022 - Present</p>
+                </div>
+
+                <!-- Right side (Description) -->
+                <div class="description">
+                    <p>
+                        I am an undergraduate student currently in my 3rd year (5th semester) at
+                        Universitas Diponegoro, majoring in Informatics. I have a deep interest in web
+                        development, architecture technology, UI/UX design, and the Web3 ecosystem.
+                    </p>
+                    <p>
+                        Besides my technical skills, I am also experienced in organizational work. I
+                        have been consistently involved in various organizations from high school
+                        through university, taking on diverse roles and responsibilities.
+                    </p>
+                </div>
             </div>
-            <h4>Application Development</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi
-              odio cum ipsam accusamus praesentium. Sunt alias ab aliquid
-              obcaecati, natus, voluptatem ea quod dolores sed voluptatum iste
-              tenetur excepturi!
-            </p>
-          </div>
 
-          <!-- Service 3 -->
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-              >
-                <path
-                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"
-                />
-              </svg>
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h4>Technical Skills</h4>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>React</li>
+                    <li>Laravel</li>
+                    <li>MySQL</li>
+                </ul>
             </div>
-            <h4>Web Development</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In modi
-              odio cum ipsam accusamus praesentium. Sunt alias ab aliquid
-              obcaecati, natus, voluptatem ea quod dolores sed voluptatum iste
-              tenetur excepturi!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- Portofolio Section -->
-    <section id="portofolio">
-      <div class="portofilios main-container">
-        <h3 class="pre-title">My Current Works</h3>
-        <h1 class="section-title">Featured Portofolios</h1>
-
-        <div class="grid-3">
-          <div class="portofolio">
-            <div class="portofolio-cover">
-              <img src="./images/UI.jpg" alt="Montec Money Tracker" />
+        <!-- Contact Section -->
+        <section id="contact" class="main-container">
+            <h1>Contact Me</h1>
+            <div class="personal-info">
+                <h3>Contact Information</h3>
+                <p>Email:
+                    <a href="mailto:gigihhaidarfalah14@gmail.com">gigihhaidarfalah14@gmail.com</a>
+                </p>
+                <p>Phone:
+                    <a href="tel:+6281332928123">0813-3292-8123</a>
+                </p>
             </div>
-            <div class="portofolio-info">
-              <div class="portofolio-title">
-                <h4>UI/UX Montec</h4>
-                <a href="/" class="portofolio-link">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div class="portofilio-tags">
-                <div>Figma</div>
-                <div>Mbuh</div>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                harum quas sequi sapiente corporis aspernatur, nam laudantium
-                libero quaerat maxime alias et labore? Iure, dolorum et eveniet
-                eaque consequatur voluptatem?
-              </p>
+
+            <div class="email-form">
+                <h3>Send me a Message</h3>
+                <form action="/send-email" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required="required"/>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required="required"/>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- Footer Section -->
-    <footer>
-      <div class="main-container">
-        <div class="personal-info">
-          <h3>Contact Information</h3>
-          <p>Email: <a href="mailto:gigihhaidarfalah14@gmail.com">gigihhaidarfalah14@gmail.com</a></p>
-          <p>Phone: <a href="tel:+6281332928123">0813-3292-8123</a></p>
-        </div>
-        <div class="email-form">
-          <h3>Send me a Message</h3>
-          <form action="/send-email" method="POST">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit" class="btn">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </footer>
-
-    <script src="main.js"></script>
-  </body>
+        <script src="main.js"></script>
+    </body>
 </html>

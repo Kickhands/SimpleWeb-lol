@@ -317,38 +317,53 @@ footer .personal-info a {
     color: var(--primaryTextColor);
 }
 
-footer .email-form {
+/* Contact Section */
+#contact {
+    padding: 4rem 0;
+  }
+  
+  .email-form {
     margin-top: 2rem;
-}
-
-footer .email-form form {
+  }
+  
+  .email-form form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-footer .email-form input, 
-footer .email-form textarea {
+    max-width: 600px; /* Limit the form width */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .email-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .email-form input,
+  .email-form textarea {
     width: 100%;
     padding: 1rem;
     border: 1px solid var(--borderColor);
-    border-radius: var(--itemBorderRadius);
-}
-
-footer .email-form button {
+    border-radius: 5px;
+  }
+  
+  .email-form textarea {
+    height: 150px;
+  }
+  
+  .email-form button {
     background-color: var(--primaryIconColor);
     color: white;
     padding: 1rem;
     border: none;
     cursor: pointer;
-    border-radius: var(--itemBorderRadius);
-}
-
-footer .email-form button:hover {
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-form button:hover {
     background-color: var(--primaryIconColorHover);
-}
+  }
 
 /* Responsiveness */
 @media screen and (max-width: 768px) {
@@ -373,4 +388,57 @@ footer .email-form button:hover {
     footer {
         text-align: center;
     }
+}
+
+/* Skills & Education Section */
+#skills-education {
+    padding: 4rem 0;
+}
+
+.skills-education-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.education, .description {
+    width: 45%;
+}
+
+.education h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.education p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.description p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Skills Section */
+.skills-section h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+.skills-list li {
+    background-color: #f5f5f5;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
 }
